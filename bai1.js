@@ -24,6 +24,7 @@ const arrays = [
 
 // task 1: Add mới 1 user vào đầu mảng
 
+
 // task 2: Add mới 1 user vào cuối mảng
 
 // task 3: add nhiều user vào mảng
@@ -39,9 +40,8 @@ const arrays = [
 // task 8: xử dụng vòng lặp for để lấy ra các user có age >= 23
 
 // task 9: Dựa vào mảng thông tin bên trên, và mảng ids bên dưới, lọc ra thông tin các user có id như mảng bên dưới.
-const arrayIds = [1, 3];
 
-// task 10: sắp xếp các user trong mảng trên theo thứ tự tuổi tằn dần
+// task 10: sắp xếp các user trong mảng trên theo thứ tự tuổi tăng dần
 
 // task 11: cập nhật thông tin trong mảng trên với field "class" được biến đổi ở task 6 thành kiểu chữ in hoa (upCase)
 
@@ -66,6 +66,7 @@ const person = {
 // task 17: chuyển đổi object trên thành array. result mong đợi => [{firsName: 'John'}, {lastName: 'Doe'}]
 
 // task 18: từ object person trên add thêm 1 field "age" vao object. kết qua mong đợi => { firstName: "John", lastName: "Doe", age: 100 };
+person = {...person, age: 100};
 
 // task 19: cho array string bên dưới, convert array này sang object. Result mong đợi => {0:"a", 1:"b", 2:"c"}
 const arrString = ["a", "b", "c"];
