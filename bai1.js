@@ -38,10 +38,10 @@ const arrays = [
 
 // task 8: xử dụng vòng lặp for để lấy ra các user có age >= 23
 
-// task 9: Dựa vào mảng thông tin bên trên, và mảng ids bên dưới, lọc ra thông tin các user có id như mảng bên dưới.
-const arrayIds = [1, 3];
 
-// task 10: sắp xếp các user trong mảng trên theo thứ tự tuổi tằn dần
+// task 9: Dựa vào mảng thông tin bên trên, và mảng ids bên dưới, lọc ra thông tin các user có id như mảng bên dưới.
+
+// task 10: sắp xếp các user trong mảng trên theo thứ tự tuổi tăng dần
 
 // task 11: cập nhật thông tin trong mảng trên với field "class" được biến đổi ở task 6 thành kiểu chữ in hoa (upCase)
 
