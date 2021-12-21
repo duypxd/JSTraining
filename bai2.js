@@ -38,7 +38,7 @@ class classUser {
     users = [{ id: 1, name: 'user 1' }, { id: 2, name: 'user 2' }];
 
     add(user) {
-        const isNum = this.checkNum(user.id);
+        const isNum = this.isExitUser(user.id);
         if (isNum) return this.users;
         this.users = [...this.users, user];
         return this.users;
@@ -55,7 +55,7 @@ class classUser {
         return this.users;
     };
 
-    checkNum(userId) {
+    isExitUser(userId) {
         return this.users.some(s => s.id === userId);
     };
 };
